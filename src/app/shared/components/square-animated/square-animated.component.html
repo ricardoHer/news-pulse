@@ -1,0 +1,10 @@
+<div class="container" 
+    [style.width.px]="configuration.width || '100px'" 
+    [style.height.px]="configuration.height || '100px'" 
+    [style.animation-duration.ms]="configuration.timeFade || 4000"
+    [style.animation-delay.ms]="configuration.delayTime || 4000"
+    [style.top]="configuration.top"
+    [style.left]="configuration.left"
+    [style.background-color]="configuration.rgba">
+    <div class="circle"></div>
+</div>

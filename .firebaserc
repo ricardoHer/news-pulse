@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "newspulse-c92d6": {
+      "hosting": {
+        "news-pulse": [
+          "newspulse-c92d6"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "newspulse-c92d6"
+  }
+}

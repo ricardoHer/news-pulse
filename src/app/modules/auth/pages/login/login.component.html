@@ -1,0 +1,26 @@
+<div class="background">
+    <app-square-animated *ngFor="let configuration of circleConfigurations" [configuration]="configuration" />
+    <div class="container">
+        <mat-card>
+            <mat-card-title>Acesse com sua conta</mat-card-title>
+            <mat-card-content>
+                <button type="button" class="btn-login" mat-fab extended color="primary"
+                    (click)="loginWithFacebook()">Login com
+                    Facebook</button>
+                <button type="button" class="btn-login" mat-fab extended color="warn" (click)="loginWithGoogle()">Login
+                    com
+                    Google</button>
+                <!-- To be implemented in a close future.-->
+                <!-- <button type="button"  class="btn-login" mat-fab extended color="accent" (click)="loginWithMicrosoft()">Login com
+                    Microsoft</button> -->
+                <button type="button" class="btn-login" mat-fab extended color="basic"
+                    (click)="loginWithTwitter()">Login com
+                    Twitter</button>
+                <!-- To be implemented in a close future.-->
+                <!-- <mat-divider></mat-divider>
+                <button type="button"  class="btn-login" mat-fab extended color="basic" (click)="loginWithMicrosoft()">Crie sua
+                    conta</button> -->
+            </mat-card-content>
+        </mat-card>
+    </div>
+</div>
